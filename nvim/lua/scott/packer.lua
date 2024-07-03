@@ -47,4 +47,7 @@ return require('packer').startup(function(use)
       requires = { {"nvim-lua/plenary.nvim"} }
   }
 
+  -- tmux config
+  use { 'christoomey/vim-tmux-navigator' }
+
 end)
